@@ -116,7 +116,7 @@ public class Main {
             while (true) {
                 arrivalTime = readNonNegativeInt(
                     scanner,
-                    "Enter arrival time for "
+                    "Enter waiting time for "
                     + processId
                     + ": "
                 );
@@ -126,7 +126,7 @@ public class Main {
                         arrivalTime
                 )) {
                     System.out.println(
-                        "Error: Arrival time already exists."
+                        "Error: Waiting time already exists."
                     );
                 } else {
                     break;
@@ -245,7 +245,7 @@ public class Main {
 
                 if (value < 0) {
                     System.out.println(
-                        "Error: Arrival time cannot be negative."
+                        "Error: waiting time cannot be negative."
                     );
                     continue;
                 }
